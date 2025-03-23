@@ -78,14 +78,14 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background 0.3s ease;
-  text-shadow: 0 0 5px rgba(0, 255, 136, 0.5); /* Sombra verde neón */
+  text-shadow: 0 0 5px rgba(0, 255, 136, 0.5); 
 }
 
 button:hover {
   background: #0056b3;
 }
 
-/* Animación para las capas ISO/OSI */
+
 .iso-layers {
   max-height: 0;
   overflow: hidden;
@@ -94,12 +94,12 @@ button:hover {
 }
 
 .iso-layers.visible {
-  max-height: 1000px; /* Ajusta según el contenido */
+  max-height: 1000px; 
   opacity: 1;
   overflow-y: auto;
 }
 
-/* Estilos para el acordeón */
+
 .layer-item {
   margin-bottom: 10px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -112,7 +112,7 @@ button:hover {
   padding: 10px;
   cursor: pointer;
   transition: background 0.3s ease;
-  text-shadow: 0 0 5px rgba(0, 255, 136, 0.5); /* Sombra verde neón */
+  text-shadow: 0 0 5px rgba(0, 255, 136, 0.5); 
 }
 
 .layer-header:hover {
@@ -136,7 +136,7 @@ button:hover {
 }
 
 .layer-item.active .layer-details {
-  max-height: 200px; /* Ajusta según el contenido */
+  max-height: 200px; 
   padding: 10px;
 }
 
@@ -144,7 +144,7 @@ button:hover {
   transform: rotate(45deg);
 }
 
-/* Estilos para la nueva sección (igual que .networks-section) */
+
 .networks-section {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -157,8 +157,8 @@ button:hover {
   .networks-section h2 {
     font-size: 2rem;
     margin-bottom: 15px;
-    color: #95bae2; /* Color azul claro */
-    text-shadow: 0 0 10px rgba(149, 186, 226, 0.7); /* Sombra azul claro */
+    color: #95bae2; 
+    text-shadow: 0 0 10px rgba(149, 186, 226, 0.7); 
   }
   
   .networks-section p {
@@ -168,14 +168,14 @@ button:hover {
   }
   
   .networks-section strong {
-    color: #95bae2; /* Color azul claro */
-    text-shadow: 0 0 5px rgba(149, 186, 226, 0.5); /* Sombra azul claro */
+    color: #95bae2; 
+    text-shadow: 0 0 5px rgba(149, 186, 226, 0.5); 
   }
   
   .networks-section em {
-    color: #00ff88; /* Verde neón */
+    color: #00ff88; 
     font-style: normal;
-    text-shadow: 0 0 5px rgba(0, 255, 136, 0.5); /* Sombra verde neón */
+    text-shadow: 0 0 5px rgba(0, 255, 136, 0.5);
   }
   
   .networks-section ul {
@@ -188,16 +188,16 @@ button:hover {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
-    border-left: 4px solid #95bae2; /* Borde azul claro */
+    border-left: 4px solid #95bae2; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .networks-section ul li:hover {
     transform: translateX(10px);
-    box-shadow: 0 4px 10px rgba(149, 186, 226, 0.3); /* Sombra azul claro */
+    box-shadow: 0 4px 10px rgba(149, 186, 226, 0.3); 
   }
   
   .networks-section ul li strong {
-    color: #00ff88; /* Verde neón */
-    text-shadow: 0 0 5px rgba(0, 255, 136, 0.5); /* Sombra verde neón */
+    color: #00ff88; 
+    text-shadow: 0 0 5px rgba(138, 236, 138, 0.5); 
   }
