@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes y Capas ISO/OSI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-layer"></div>
+  <div class="content-layer">
+
+
+
+    
+    <header>
+      <h1>Conceptos Clave de Redes</h1>
+      <p>Explora los fundamentos de las redes y las capas del modelo ISO/OSI.</p>
+    </header>
+
+    <section class="networks-section">
+      <h2>Tipos de Redes</h2>
+      <h2>¿Qué es una Red Informática?</h2>
+        <p>Una <strong>red informática</strong> es un conjunto de dispositivos interconectados que permiten compartir recursos e intercambiar información entre sí. Esta interconexión puede realizarse de diversas maneras, ya sea a través de cables (como en una red LAN) o de forma inalámbrica (como en una red Wi-Fi). Las redes pueden ser locales (LAN), de área metropolitana (MAN) o de área amplia (WAN), e incluso globales como <em>Internet</em>.</p>
+        <h2>Importancia de las Redes en Informática</h2>
+        <ul>
+            <li><strong>Comunicación eficiente:</strong> Las redes permiten que los usuarios y sistemas se comuniquen de manera rápida y eficiente.</li>
+            <li><strong>Acceso compartido a recursos:</strong> Permiten que múltiples usuarios compartan recursos como impresoras, archivos y aplicaciones.</li>
+            <li><strong>Escalabilidad y flexibilidad:</strong> Las redes permiten la expansión sencilla de recursos y servicios.</li>
+            <li><strong>Seguridad:</strong> A través de las redes, se implementan medidas de seguridad como cortafuegos y encriptación de datos.</li>
+            <li><strong>Eficiencia y ahorro:</strong> Permiten la centralización de servicios y recursos, mejorando la eficiencia y reduciendo costos.</li>
+            <li><strong>Conectividad global:</strong> Gracias a las redes, las computadoras se conectan globalmente, facilitando el comercio electrónico y las redes sociales.</li>
+        </ul>
+    </section>
+
+    <section class="iso-section">
+      <button id="isoButton">Ver Capas ISO/OSI</button>
+      <div id="isoLayers" class="iso-layers hidden">
+        <h2>Capas del Modelo ISO/OSI</h2>
+        <ol>
+          <li class="layer-item">
+            <div class="layer-header">
+              <strong>Capa 1: Física</strong>
+              <span class="toggle-icon">+</span>
+            </div>
+            <div class="layer-details">
+              <p>Responsable de la transmisión de bits a través de un medio físico, como cables de cobre, fibra óptica o señales inalámbricas.</p>
+              <p><strong>Ejemplos:</strong> Ethernet, USB, Bluetooth.</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <div class="layer-header">
+              <strong>Capa 2: Enlace de Datos</strong>
+              <span class="toggle-icon">+</span>
+            </div>
+            <div class="layer-details">
+              <p>Gestiona la transferencia confiable de datos entre nodos conectados directamente. Incluye detección y corrección de errores.</p>
+              <p><strong>Ejemplos:</strong> MAC (Control de Acceso al Medio), switches.</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <div class="layer-header">
+              <strong>Capa 3: Red</strong>
+              <span class="toggle-icon">+</span>
+            </div>
+            <div class="layer-details">
+              <p>Encargada del enrutamiento de paquetes entre redes diferentes. Define direcciones lógicas (IP) y determina la mejor ruta.</p>
+              <p><strong>Ejemplos:</strong> IP, routers.</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <div class="layer-header">
+              <strong>Capa 4: Transporte</strong>
+              <span class="toggle-icon">+</span>
+            </div>
+            <div class="layer-details">
+              <p>Gestiona la comunicación confiable entre dispositivos, incluyendo control de flujo y corrección de errores.</p>
+              <p><strong>Ejemplos:</strong> TCP (Transmission Control Protocol), UDP (User Datagram Protocol).</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <div class="layer-header">
+              <strong>Capa 5: Sesión</strong>
+              <span class="toggle-icon">+</span>
+            </div>
+            <div class="layer-details">
+              <p>Establece, mantiene y termina sesiones entre aplicaciones. Gestiona la sincronización y el diálogo.</p>
+              <p><strong>Ejemplos:</strong> NetBIOS, RPC (Llamada a Procedimiento Remoto).</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <div class="layer-header">
+              <strong>Capa 6: Presentación</strong>
+              <span class="toggle-icon">+</span>
+            </div>
+            <div class="layer-details">
+              <p>Traduce, cifra y comprime los datos para que sean compatibles entre sistemas.</p>
+              <p><strong>Ejemplos:</strong> SSL/TLS (cifrado), JPEG (compresión).</p>
+            </div>
+          </li>
+          <li class="layer-item">
+            <div class="layer-header">
+              <strong>Capa 7: Aplicación</strong>
+              <span class="toggle-icon">+</span>
+            </div>
+            <div class="layer-details">
+              <p>Proporciona una interfaz para que las aplicaciones accedan a los servicios de red.</p>
+              <p><strong>Ejemplos:</strong> HTTP, FTP, SMTP.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </div>
+
+  <script src="MyImage.js"></script>
+</body>
+</html>
